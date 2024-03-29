@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on utilizing machine learning to predict cardiovascular disease based on key risk factors. Cardiovascular disease is a leading global cause of preventable deaths, responsible for significant suffering and straining healthcare systems. It claims about 17.7 million lives annually, making up 44% of non-communicable disease fatalities.
+This project focuses on utilising machine learning to predict cardiovascular disease based on key risk factors. Cardiovascular disease is a leading global cause of preventable deaths, responsible for significant suffering and straining healthcare systems. It claims about 17.7 million lives annually, making up 44% of non-communicable disease fatalities.
 
 We monitor risk factors such as blood pressure, obesity, age, gender, diet, exercise, smoking, insurance, mental and physical health, alcohol use, sleep, and health check-ups. Our aim is to leverage machine learning techniques for accurate disease prediction, contributing to research and prevention efforts. Below is an organized breakdown of the project's key components and features:
 
@@ -14,7 +14,7 @@ Before diving into machine learning models, it's essential to preprocess the dat
    - Repeated Edited Nearest Neighbours (Undersampling)
    - Random Over Sampler (Oversampling)
 
-2. **Standardization**
+2. **Standardisation**
 
 3. **Feature Selection:** 
    - Recursive Feature Elimination
@@ -31,7 +31,7 @@ Here are the models implemented:
 
 ### Model Evaluation
 
-To assess the performance of the machine learning models, the following evaluation metrics have been utilized:
+To assess the performance of the machine learning models, the following evaluation metrics have been utilised:
 
 1. **Precision**
 
