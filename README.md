@@ -6,44 +6,26 @@ This project focuses on utilising machine learning to predict cardiovascular dis
 
 We monitor risk factors such as blood pressure, obesity, age, gender, diet, exercise, smoking, insurance, mental and physical health, alcohol use, sleep, and health check-ups. Our aim is to leverage machine learning techniques for accurate disease prediction, contributing to research and prevention efforts. Below is an organized breakdown of the project's key components and features:
 
-### Data Preprocessing
+### Key Highlights of the Paper:
+**Objective:** The research aims to harness machine learning for predicting cardiovascular diseases based on numerous risk factors, addressing the high fatality rates associated with cardiovascular conditions.
 
-Before diving into machine learning models, it's essential to preprocess the data to ensure its quality and suitability for analysis. The following steps have been taken:
+**Data Preprocessing:** The paper details a rigorous preprocessing phase that includes resampling techniques to address dataset imbalances, standardization, and feature selection through Recursive Feature Elimination, setting a solid foundation for model training.
 
-1. **Resampling Techniques:** 
-   - Repeated Edited Nearest Neighbours (Undersampling)
-   - Random Over Sampler (Oversampling)
+**Machine Learning Models Implemented:**
 
-2. **Standardisation**
+Decision Tree Classifier is used for its simplicity and interpretability.
+Logistic Regression is employed for its efficiency in binary classification tasks.
+Support Vector Machine (SVM) is chosen for its effectiveness in high-dimensional spaces.
 
-3. **Feature Selection:** 
-   - Recursive Feature Elimination
+**Model Evaluation:** The paper employs precision, recall, and F1-score to evaluate model performance, ensuring a comprehensive assessment beyond mere accuracy due to the imbalanced nature of the dataset.
 
-### Machine Learning Models
+**Hyperparameter Tuning:** Through Grid Search, the study fine-tunes model parameters, significantly impacting the models' predictive performances.
 
-Here are the models implemented:
 
-1. **Decision Tree Classifier**
 
-2. **Logistic Regression**
 
-3. **Support Vector Machine**
 
-### Model Evaluation
 
-To assess the performance of the machine learning models, the following evaluation metrics have been utilised:
-
-1. **Precision**
-
-2. **Recall**
-
-3. **F1-Score**
-
-### Hyperparameter Tuning
-
-Fine-tuning the model parameters is crucial for achieving better performances.
-
-1. **Grid Search**
 
 
 
